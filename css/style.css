@@ -429,11 +429,24 @@ opacity: 0.6;
 .site-footer{
     padding: 70px 50px;
     background-image:url("../img/bg-picture.jpg");
-    
 }
+
 .site-footer-container{
     display:flex;
     justify-content: space-between;
+    align-items: center;
+}
+.navbar-item-link {
+    display: flex;
+}
+.site-footer-logo-img:hover{
+    opacity: 0.8;
+}
+.site-footer-logo-img:active{
+    opacity: 0.6;
+}
+.footer-item-link{
+    font-size: 16px;
 }
 
 @media
@@ -447,9 +460,12 @@ only screen and (                min-resolution: 2dppx) {
         background-image:url("../img/bg-picture@2x.jpg");
     }
     .index-collection-hero{
-        background-image:url("../img/index-bg@2x.jpg")
+        background-image:url("../img/index-bg@2x.jpg");
     }
     .index-features-inner{
-        background-image:url("../img/index-features@2x.jpg")
+        background-image:url("../img/index-features@2x.jpg");
+    }
+    .site-footer{
+        background-image:url("..img/bg-picture@2x.jpg");
     }
 }
